@@ -1,0 +1,15 @@
+# Environment configuration
+.env
+.env.local
+
+# Storage and logs
+storage/logs/*.log
+storage/cache/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
