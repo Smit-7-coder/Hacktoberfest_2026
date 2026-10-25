@@ -209,6 +209,9 @@ require_once __DIR__ . '/includes/navbar.php';
                                             <a href="<?= app_url('pages/contributions.php?repo=' . urlencode($repo['full_name'])) ?>" class="btn btn-outline-secondary" title="Contributions & Issues">
                                                 <i class="bi bi-trophy"></i>
                                             </a>
+                                            <a href="<?= app_url('pages/report.php?repo=' . urlencode($repo['full_name'])) ?>" class="btn btn-outline-danger" title="Download Architecture PDF Report" target="_blank">
+                                                <i class="bi bi-file-earmark-pdf"></i>
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>

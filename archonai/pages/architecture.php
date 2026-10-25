@@ -41,6 +41,9 @@ require_once __DIR__ . '/../includes/navbar.php';
                 <button id="btnZoomOut" class="btn btn-sm btn-archon-secondary" title="Zoom Out"><i class="bi bi-zoom-out"></i></button>
                 <button id="btnFit" class="btn btn-sm btn-archon-secondary" title="Fit to Viewport"><i class="bi bi-arrows-fullscreen"></i></button>
                 <button id="btnRelayout" class="btn btn-sm btn-archon-primary" title="Re-organize Layout"><i class="bi bi-arrow-clockwise"></i></button>
+                <a href="<?= app_url('pages/report.php?repo=' . urlencode($repoName)) ?>" target="_blank" class="btn btn-sm btn-outline-danger" title="Download Architecture PDF Report">
+                    <i class="bi bi-file-earmark-pdf-fill me-1"></i> PDF
+                </a>
             </div>
         </div>
 
