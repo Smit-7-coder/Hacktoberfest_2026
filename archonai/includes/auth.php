@@ -15,6 +15,7 @@ function auth_user(): ?array {
 function auth_id(): ?int {
     return isset($_SESSION['user']['id']) ? (int)$_SESSION['user']['id'] : null;
 }
+
 function is_authenticated(): bool {
     return !empty($_SESSION['user']['id']);
 }
@@ -25,7 +26,7 @@ function require_auth(string $redirectPath = 'login.php'): void {
         header("Location: {$loginUrl}");
         exit;
     }
-}djskjksj dskjdskdjjs dskdjdjkj hello this code ad solve the code one by one and code and code so ic an 
+}
 
 function require_guest(string $redirectPath = 'dashboard.php'): void {
     if (is_authenticated()) {

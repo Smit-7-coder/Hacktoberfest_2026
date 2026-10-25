@@ -1,6 +1,10 @@
 MIT License
 
-Copyright (c) 2026 Sakariya Smit R
+Project: ArchonAI — Intelligence for Software Architecture
+Tagline: Understand Any Codebase. Discover What Connects.
+Event:   Hacktoberfest 2026 Open-Source Initiative
+
+Copyright (c) 2026 Sakariya Smit R and ArchonAI Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +23,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------------------
+Open-Source & Architecture Intelligence Attribution:
+- ArchonAI is an open-source software architecture intelligence platform built
+  to assist developers and contributors in navigating, parsing, and visualizing
+  unfamiliar GitHub repositories.
+- Third-party libraries used within this project (including Bootstrap 5, Cytoscape.js,
+  and Bootstrap Icons) are subject to their respective open-source licenses.
+- Open-weight coding models integrated via Ollama (e.g., CodeLlama, Qwen-Coder)
+  are governed by their respective model distribution terms and usage policies.
