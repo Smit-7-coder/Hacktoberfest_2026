@@ -1,4 +1,4 @@
-# ArchonAI — Intelligence for Software Architecture
+# ArchonAI — Intelligence for Software Architecture 
 
 > **Understand Any Codebase. Discover What Connects.**  
 > An open-source, AI-powered software architecture intelligence platform built for Hacktoberfest 2026.
